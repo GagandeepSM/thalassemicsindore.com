@@ -1,284 +1,231 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="static/index.css">
+	<title>TSCS Indore</title>
 
     <!-- FontAwesome -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-    <title>Thalassemics Indore</title>
-    <style type="text/css">
-    	
-		body {
-		  font-family: Rubik,Arial,sans-serif;
-		    font-weight: 400;
-		    font-size: 1rem;
-		    overflow-x: hidden;
-		    color: #607289;
-		}
+</head>
 
-		h5 {
-		    font-size: 1rem;
-		    line-height: 1.375;
-		  font-family: Rubik,Arial,sans-serif;
-		    font-weight: 500;
-		    color: #030929;
-		}
-
-		a {
-		  color: #818494;
-		  font-weight: 500;
-		  text-decoration: none;
-		  background-color: transparent;
-		}
-
-		a:hover {
-		  color: #007bff;
-		  text-decoration: none;
-		}
-
-		footer {
-		  background: #ebf4fa;
-		}    	
-    </style>
-  </head>
-
-  <body>
-
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-	  <a class="navbar-brand" href="#">
-	  	<img src="logo.png" width="30" height="30" alt="" loading="lazy">
-	  	Thalassemia & Sickle cell society of Indore
-	  </a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-	  <div class="collapse navbar-collapse" id="navbarNav">
-	    <ul class="navbar-nav ml-auto">
-	      <li class="nav-item">
-	        <a class="nav-link" href="#">Donate</a>       
-	      </li>
-	    </ul>
-	  </div>	  
-	</nav>
-	
-	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-	  <ol class="carousel-indicators">
-	    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-	    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-	    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-	  </ol>
-	  <div class="carousel-inner">
-	    <div class="carousel-item active " data-interval="1200">
-	      <img src="blood-cell-banner.png" class="d-block w-100" alt="...">
-	    </div>
-	    <div class="carousel-item" data-interval="1500">
-	      <img src="blood-cell-banner.png" class="d-block w-100" alt="...">
-	    </div>
-	    <div class="carousel-item" data-interval="1200">
-	      <img src="blood-cell-banner.png" class="d-block w-100" alt="...">
-	    </div>
-	  </div>
-	  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-	    <span class="sr-only">Previous</span>
-	  </a>
-	  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-	    <span class="sr-only">Next</span>
-	  </a>
-	</div>
-
-	<div class="card-deck p-3">
-	  <div class="card">
-	    <img src="logo.png" class="card-img-top" alt="...">
-	    <div class="card-body">
-	      <h5 class="card-title">Our objective</h5>
-	      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-	    </div>
-	    <div class="card-footer">
-	      <small class="text-muted">Last updated 3 mins ago</small>
-	    </div>
-	  </div>
-	  <div class="card">
-	    <img src="logo.png" class="card-img-top" alt="...">
-	    <div class="card-body">
-	      <h5 class="card-title">Our e-strong foundation</h5>
-	      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.. Register no 1117.93</p>
-	    </div>
-	    <div class="card-footer">
-	      <small class="text-muted">Last updated 3 mins ago</small>
-	    </div>
-	  </div>
-	  <div class="card">
-	    <img src="logo.png" class="card-img-top" alt="...">
-	    <div class="card-body">
-	      <h5 class="card-title">Our work</h5>
-	      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat..</p>
-	    </div>
-	    <div class="card-footer">
-	      <small class="text-muted">Last updated 3 mins ago</small>
-	    </div>
-	  </div>
-	</div>
-	<div class='row'>
-		<div class="col-2"></div>
-		<div class="card text-center col-8 bg-light">
-		  <div class="card-body">
-		    <h5 class="card-title">Donate Now!</h5>
-		    <p class="card-text">Help us save lives, Get in touch with us to donate for special cause</p>
-		    <a href="#" class="btn btn-primary">Call +91 99999-88888</a>
+<body>
+	<!-- Navigation Bar-->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+		  <div class="container">
+		  	<img src="static/logo.png" width="30" height="30" alt="" loading="lazy">
+		    <a class="navbar-brand" href="#">TSCS</a>
+		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+		          <span class="navbar-toggler-icon"></span>
+		        </button>
+		    <div class="collapse navbar-collapse" id="navbarResponsive">
+		      <ul class="navbar-nav ml-auto">
+		        <li class="nav-item active">
+		          <a class="nav-link" href="#">Home
+		                <span class="sr-only">(current)</span>
+		              </a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">About</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">Work</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">Contact</a>
+		        </li>
+		      </ul>
+		    </div>
 		  </div>
+		</nav>
+
+	<!-- Full Page Image Header with Vertically Centered Content -->
+		<header class="masthead">
+		  <div class="container h-100">
+		    <div class="row h-100 align-items-center">
+		      <div class="col-12 text-center">
+		        <h1 class="font-weight-light">Thalassemia & sickle society of Indore</h1>
+		        <p class="lead">Since 1993</p>
+		      </div>
+		    </div>
+		  </div>
+		</header>
+
+	<!-- Card deck -->
+		<div class="card-deck p-5" >
+		  <div class="card border-0 shadow">
+		    <img src="static/heart.jpg" class="card-img-top" alt="...">
+		    <div class="card-body">
+		      <h5 class="card-title">Our objective</h5>
+		      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+		    </div>
+		  </div>
+		  <div class="card border-0 shadow">
+		    <img src="static/pink-heart.jpg" class="card-img-top" alt="...">
+		    <div class="card-body">
+		      <h5 class="card-title">Our e-strong foundation</h5>
+		      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>		    
+		    </div>
+		  </div>
+		  <div class="card border-0 shadow">
+		    <img src="static/caring.jpg" class="card-img-top" alt="...">
+		    <div class="card-body">
+		      <h5 class="card-title">Our work</h5>
+		      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+		    </div>
+		  </div>
+		</div>	
+
+	<!-- Page Content -->
+		<section class="py-5">
+		  <div class="container">
+		  	<div class='row'>
+		  		<div class="col-md-6 border shadow p-5">
+			  		<h2 class="font-weight-light">What is Thalassemia?</h2>			    
+			  			<hr>
+				    	<p>A blood disorder involving lower-than-normal amounts of an oxygen-carrying protein.
+					    Thalassemia is an inherited blood disorder characterised by less oxygen-carrying protein (haemoglobin) and fewer red blood cells in the body than normal.</p>
+					    <h5>Symptoms</h5>
+					    <p>Fatigue, weakness, paleness and slow growth.</p>
+					    <h5>Treatment</h5>
+					    <p>Mild forms may not need treatment. Severe forms may require blood transfusions or a donor stem-cell transplant.</p>		  	
+					<a class="btn btn-danger " href="https://en.wikipedia.org/wiki/Thalassemia">Learn More</a>		
+		  		</div>			    
+		  		<div class="col-md-6">
+		  			<img src="static/blood-drop.jpg" width="400" height="500" class="card-img-top" alt="...">	
+		  		</div>				
+		  	</div>
+		  </div>
+		</section>			
+
+	<!-- Team Details -->
+		<!-- Header -->
+		<header class="text-center py-5 my-4" style="background-color: #ebebeb">
+		  <div class="container">
+		    <h1 class="font-weight-light text-black">Meet the Team</h1>
+		  </div>
+		</header>
+
+		<!-- Page Content -->
+		<div class="container p-5">
+			<div class="row">
+				<!-- Team Member 1 -->
+				<div class="col-xl-3 col-md-6 mb-4">
+				  <div class="card border-0 shadow">
+				    <img src="static/people-with-love-shape-logo-vector_23987-317.jpg" class="card-img-top" alt="...">
+				    <div class="card-body text-center">
+				      <h5 class="card-title mb-0">Team Member</h5>
+				      <div class="card-text text-black-50">Director</div>
+				    </div>
+				  </div>
+				</div>
+				<!-- Team Member 2 -->
+				<div class="col-xl-3 col-md-6 mb-4">
+				  <div class="card border-0 shadow">
+				    <img src="static/people-with-love-shape-logo-vector_23987-317.jpg" class="card-img-top" alt="...">
+				    <div class="card-body text-center">
+				      <h5 class="card-title mb-0">Team Member</h5>
+				      <div class="card-text text-black-50">CEO</div>
+				    </div>
+				  </div>
+				</div>
+				<!-- Team Member 3 -->
+				<div class="col-xl-3 col-md-6 mb-4">
+				  <div class="card border-0 shadow">
+				    <img src="static/people-with-love-shape-logo-vector_23987-317.jpg" class="card-img-top" alt="...">
+				    <div class="card-body text-center">
+				      <h5 class="card-title mb-0">Team Member</h5>
+				      <div class="card-text text-black-50">Chairman</div>
+				    </div>
+				  </div>
+				</div>
+				<!-- Team Member 4 -->
+				<div class="col-xl-3 col-md-6 mb-4">
+				  <div class="card border-0 shadow">
+				    <img src="static/people-with-love-shape-logo-vector_23987-317.jpg" class="card-img-top" alt="...">
+				    <div class="card-body text-center">
+				      <h5 class="card-title mb-0">Team Member</h5>
+				      <div class="card-text text-black-50">MD</div>
+				    </div>
+				  </div>
+				</div>
+			</div>
+			<!-- /.row -->
 		</div>
-		<div class="col-2"></div>
-	</div>
+		<!-- /.container -->
 
-	<div class="card-columns p-3">
-	  <div class="card">
-	    <img src="logo.png" class="card-img-top" alt="...">
-	    <div class="card-body">
-	      <h5 class="card-title">Card title that wraps to a new line</h5>
-	      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-	    </div>
-	  </div>
-	  <div class="card p-3">
-	    <blockquote class="blockquote mb-0 card-body">
-	      <p>You don't have to be a doctor to save lives.</p>
-	      <footer class="blockquote-footer">
-	        <small class="text-muted">
-	          Donate today<cite title="Source Title"> -thalassemicsindore@gmail.com</cite>
-	        </small>
-	      </footer>
-	    </blockquote>
-	  </div>
-	  <div class="card">
-	    <img src="logo.png" class="card-img-top" alt="...">
-	    <div class="card-body">
-	      <h5 class="card-title">Card title</h5>
-	      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-	      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-	    </div>
-	  </div>
-	  <div class="card bg-primary text-white text-center p-3">
-	    <blockquote class="blockquote mb-0">
-	      <p>World Thalassemia Day, 8th May</p>
-	      <footer class="blockquote-footer text-white">
-	        <small>
-	          <cite title="Source Title">Give Blood, Give Life</cite>
-	        </small>
-	      </footer>
-	    </blockquote>
-	  </div>
-	  <div class="card text-center">
-	    <div class="card-body">
-	      <h5 class="card-title">Card title</h5>
-	      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-	      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-	    </div>
-	  </div>
-	  <div class="card">
-	    <img src="logo.png" class="card-img-top" alt="...">
-	  </div>
-	  <div class="card p-3 text-right">
-	    <blockquote class="blockquote mb-0">
-	      <p>In India each year, 7000-10,000 children are born with thalassemia</p>
-	      <footer class="blockquote-footer">
-	        <small class="text-muted">
-	          Someone famous in <cite title="Source Title">Source Title</cite>
-	        </small>
-	      </footer>
-	    </blockquote>
-	  </div>
-	  <div class="card">
-	    <div class="card-body">
-	      <h5 class="card-title">Card title</h5>
-	      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-	      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-	    </div>
-	  </div>
-	</div>	
+	<!-- Footer -->
+			<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+			<footer>
+			  <div class="container pt-5 border-bottom">
+			    <div class="row">
+			      <div class="col-md-3 col-sm-12 mb-3 text-center">
+			      		<img src="static/logo.png" width="250" height="250" alt="" loading="lazy">
+			      </div>
+			      <div class="col-md-9 col-sm-12">
 
-<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-<footer class="bg-light">
-  <div class="container pt-5 border-bottom">
-    <div class="row">
-      <div class="col-md-3 col-sm-12 mb-3 text-center">
-      		<img src="logo.png" width="250" height="250" alt="" loading="lazy">
-      </div>
-      <div class="col-md-9 col-sm-12">
+			        <div class="col-md-3 col-sm-6 col-6 p-0 float-left mb-3">
+			        	<!-- col space -->
+			        </div>
 
-        <div class="col-md-3 col-sm-6 col-6 p-0 float-left mb-3">
-        	<!-- col space -->
-        </div>
+			        <div class="col-md-3 col-sm-6 col-6 p-0 mb-3 float-left">	        	
+			          <h5 class="mb-4 font-weight-bold text-uppercase">Join Us</h5>
+				        <ul class="list-group">
+				          <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#">Volunteer</a></li>
+				          <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#">Share with friends</a></li>
+				        </ul>
+			        </div>
 
-        <div class="col-md-3 col-sm-6 col-6 p-0 mb-3 float-left">
-        	<!--
-          <h5 class="mb-4 font-weight-bold text-uppercase">Work</h5>
-	        <ul class="list-group">
-	          <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#">A</a></li>
-	          <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#">B</a></li>
-	        </ul>
-	    	-->
-        </div>
+			        <div class="col-md-3 col-sm-6 col-6 mb-3 p-0 float-left">
+			          <h5 class="mb-4 font-weight-bold text-uppercase">Phone</h5>
+				        <ul class="list-group">
+				          <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#"></i>+91 88888-99999</a></li>
+				          <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#"></i>+91 88888-99999</a></li>
+				        </ul>
+			        </div>
 
-        <div class="col-md-3 col-sm-6 col-6 mb-3 p-0 float-left">
-          <h5 class="mb-4 font-weight-bold text-uppercase">Phone</h5>
-	        <ul class="list-group">
-	          <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#"></i>+91 88888-99999</a></li>
-	          <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#"></i>+91 88888-99999</a></li>
-	        </ul>
-        </div>
+			        <div class="col-md-3 col-sm-6 col-6 mb-3 p-0 float-left">
+			          <h5 class="mb-4 font-weight-bold text-uppercase">Connect</h5>
+			        <ul class="list-group">
+			          <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+			            <a href="#"><i class="fa fa-linkedin mr-1"></i> LinkedIn</a>
+			          </li>
+			          <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+			            <a href="https://twitter.com/ThalassemiaI?s=09"><i class="fa fa-twitter mr-1"></i> Twitter</a>       
+			          </li class="list-group-item bg-transparent border-0 p-0 mb-2">
+			          <li class="list-group-item bg-transparent border-0 p-0 mb-2"> 
+			            <a href="#"><i class="fa fa-reddit mr-1"></i> Reddit</a>
+			          </li>
+			          <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+			            <a href="#" target="_blank"><i class="fa fa-google-plus mr-1"></i> Google+</a>
+			            
+			          </li>
+			          <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+			            <a href="#" target="_blank"><i class="fa fa-medium mr-1"></i> Medium</a>
+			          </li>
+			          <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+			            <a href="https://www.facebook.com/111353057263743?referrer=whatsapp" target="_blank"><i class="fa fa-facebook mr-1"></i> Facebook</a>
+			          </li>
+			          <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+			            <a href="#" target="_blank"><i class="fa fa-youtube mr-1"></i> YouTube</a>
+			          </li>
+			        </ul>
+			        </div>
 
-        <div class="col-md-3 col-sm-6 col-6 mb-3 p-0 float-left">
-          <h5 class="mb-4 font-weight-bold text-uppercase">Connect</h5>
-        <ul class="list-group">
-          <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-            <a href="#"><i class="fa fa-linkedin mr-1"></i> LinkedIn</a>
-          </li>
-          <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-            <a href="#"><i class="fa fa-twitter mr-1"></i> Twitter</a>       
-          </li class="list-group-item bg-transparent border-0 p-0 mb-2">
-          <li class="list-group-item bg-transparent border-0 p-0 mb-2"> 
-            <a href="#"><i class="fa fa-reddit mr-1"></i> Reddit</a>
-          </li>
-          <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-            <a href="#" target="_blank"><i class="fa fa-google-plus mr-1"></i> Google+</a>
-            
-          </li>
-          <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-            <a href="#" target="_blank"><i class="fa fa-github mr-1"></i> Github</a>  
-          </li>
-          <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-            <a href="#" target="_blank"><i class="fa fa-medium mr-1"></i> Medium</a>
-          </li>
-          <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-            <a href="https:/#" target="_blank"><i class="fa fa-facebook mr-1"></i> Facebook</a>
-          </li>
-          <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-            <a href="#" target="_blank"><i class="fa fa-youtube mr-1"></i> YouTube</a>
-          </li>
-        </ul>
-        </div>
+			      </div>
+			        <div class="col-md-12">
+			          <div class="py-4 d-flex justify-content-center align-items-center">
+			            Made in भारत by Shashwat Dashora
+			          </div>
+			        </div>
+			    </div>
+			  </div>
+			</footer>
 
-      </div>
-        <div class="col-md-12">
-          <div class="py-4 d-flex justify-content-center align-items-center">
-            Made in भारत by Shashwat Dashora
-          </div>
-        </div>
-    </div>
-  </div>
-</footer>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
