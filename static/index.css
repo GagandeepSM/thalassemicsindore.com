@@ -1,0 +1,32 @@
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h5 {
+    font-size: 1rem;
+    line-height: 1.375;
+  font-family: Rubik,Arial,sans-serif;
+    font-weight: 500;
+    color: #030929;
+}
+
+a {
+  color: #818494;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #007bff;
+  text-decoration: none;
+}
+
+footer {
+  background: #ebebeb;
+}    	
